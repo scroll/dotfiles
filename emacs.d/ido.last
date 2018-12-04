@@ -1,0 +1,154 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/api/" . "migrations/")
+ ("/home/scroll_lock/workspace/dotfiles/" . "emacs.d/")
+ ("/home/scroll_lock/workspace/" . "dotfiles/")
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/app/" . "api/")
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/nginx.etc/" . "conf.d/")
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/" . "haproxy.etc/")
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/Docker/" . "entrypoints/")
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/" . "app/")
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/" . "entrypoints/")
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/" . "api/")
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/" . "app/")
+ ("/home/scroll_lock/workspace/rgbnotes/" . "rgbapi/")
+ ("d:/workspace/dotfiles/" . "emacs.d/")
+ ("d:/workspace/" . "dotfiles/")
+ ("c:/Users/Marin/" . ".emacs.d/")
+ ("d:/" . "workspace/")
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/libexec/emacs/25.2/" . "x86_64-w64-mingw32/")
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/libexec/emacs/" . "25.2/")
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/libexec/" . "emacs/")
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/" . "libexec/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/scroll_lock/workspace/rgbnotes/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/app/api/"
+ "/home/scroll_lock/workspace/rgbnotes/rgblabs-ffmpeg-compositor/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/api/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/entrypoints/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/dockerfiles/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/transcoder/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/api/migrations/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/haproxy.etc/"
+ "/home/scroll_lock/workspace/dotfiles/emacs.d/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/app/rgbnotes/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/Docker/entrypoints/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/Docker/dockerfiles/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/nginx.etc/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/nginx.etc/conf.d/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/app/"
+ "/home/scroll_lock/"
+ "/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/mysql.etc/"
+ "c:/Users/Marin/.emacs.d/"
+ "d:/workspace/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "privacy_policy.md"
+ "views.py"
+ "tasks.py"
+ "example.sh"
+ "rackspace.py"
+ "tests.py"
+ "test.txt"
+ "requirements.txt"
+ "worker.sh"
+ "Dockerfile.transcoder_celery"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/scroll_lock/workspace/dotfiles/emacs.d/" (23302 49741 161543 843000) "progmodes/" "snippets/" "zencoding-trie.nw" ".gitignore" "floobits/" "elpa/" "emacs.d" "completions" "color-theme-6.6.0/" ".python-environments/" "./" ".#ido.last" "session.10761ab286876084b4152568755633201900000160430072" "../" "auto-save-list/" "session.10cc650e07b443733c152421744572792900000017380063" "lisp/" "init.el" "ido.last" "ac-comphist.dat" "cygwin-mount.el")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/api/migrations/" (23301 50541 432036 603000) "0001_initial.py" "__init__.py" "__pycache__/" "./" "../")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/api/" (23304 11825 229832 888000) "urls.py" "__init__.py" "admin.py" "models.py" "__pycache__/" "./" "apps.py" "views.py" "tasks.py" "serializers.py" "../" "migrations/" "tests.py")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgblabs-ffmpeg-compositor/" (23304 6986 818257 3000) "out.avi" "bg.avi" "dino_drop_trimmed_000.00014.png" "dino_drop_trimmed_000.00017.png" ".git/" "dino_drop_trimmed_000.00022.png" "small.mp4" "dino_drop_trimmed_000.00004.png" "dino_drop_trimmed_000.00013.png" "dino_drop_trimmed_000.00025.png" "new.mp4" "dino_drop_trimmed_000.00011.png" "test.mp4" "dino_drop_trimmed_000.00026.png" "./" "dino_drop_trimmed_000.00012.png" "dino_drop_trimmed_000.00016.png" "dino_drop_trimmed_000.00002.png" "dino_drop_trimmed_000.00024.png" "dino_drop_trimmed_000.00015.png" "dino_drop_trimmed_000.00018.png" "dino_drop_trimmed_000.00001.png" "dino_drop_trimmed_000.00006.png" "../" "dino_drop_trimmed_000.00010.png" "dino_drop_trimmed_000.00003.png" "dino_drop_trimmed_000.00005.png" "dino_drop_trimmed_000.00008.png" "dino_drop_trimmed_000.00020.png" "dino_drop_trimmed_000.00019.png" "dino_drop_trimmed_000.00009.png" "fill.py" "example.sh" "README.md" "dino_drop_trimmed_000.00027.png" "dino_drop_trimmed_000.00007.png" "dino_drop_trimmed_000.00023.png" "dino_drop_trimmed_000.00021.png")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/" (23304 11881 91405 616000) "docker-compose.yml" "Docker/" ".git/" ".gitignore" "app/" "./" "Django" "../" "rgbcli")
+
+ ("/home/scroll_lock/workspace/" (23300 26068 364571 396000) "test.txt.asc" "letter.txt" "test.txt.gpg" "privkey.pem" ".#rgbsketch.js" "test.blah" "rgbnotes/" "Postman/" "test.py" "test/" "#test.py#" "keystore/" "reeviewit-master/" "test.txt" "purpose_HackandPaint.txt" "#test.txt#" ".#test.py" "buddygenerator.py" ".#test.txt" "texts/" "./" "Ethereum-Wallet-linux64-0-8-1/" "slack_integration.txt" "cert.pem" "dotfiles/" "replay/" "#slack_integration.txt#" "../" "postman.tar.gz" "test.txt.pgp" "randomizer.py" "hackandpaint/" "privkey_fixed.pem" "peer_eval_0117.md" "#names.txt#" ".#names.txt" "priv_new.pem" "letsencrypt/" "key.cert" "pm_install.sh" "utils/")
+
+ ("/home/scroll_lock/workspace/rgbnotes/" (23303 48380 155108 613000) "rgbnotes_ffmpeg/" "rgbapi/" "rgblabs-ffmpeg-compositor/" "rgbnotes_api_django/" "./" ".#rackspace.py" "#rackspace.py#" "sync.js" "../" "dockerdjango/" "rackspace.py")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/transcoder/" (23302 23555 835022 65000) "urls.py" "__init__.py" "wsgi.py" "__pycache__/" "./" "celery.py" "../" "settings.py")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/" (23302 54501 558410 987000) "dockerfiles/" "./" "requirements.txt" "../" "entrypoints/" "configs/" "bashrc")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/dockerfiles/" (23302 55246 672202 750000) "Dockerfile.transcoder_django" "./" "Dockerfile.transcoder_celery" "Dockerfile.transcoder_database" "../" "Dockerfile.transcoder_haproxy")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/entrypoints/" (23302 47042 62079 584000) "server.sh" "./" "../" "db.sh" "haproxy.sh" "worker.sh")
+
+ ("/home/scroll_lock/" (23285 19352 472328 777000) ".python_history" "Desktop/" "home/" ".compiz/" ".var/" ".ssh/" "live/" ".ethereum/" ".ido.last" ".Xauthority.backup.20150623" ".meteorsession" ".sudo_as_admin_successful" "keys.info" "variant_01_panel_04_grid_example.jpg" "variant_01_panel_01.jpg" ".bitcoin/" "privkey.pem" ".dbus/" "out.gif" ".gksu.lock" ".gitconfig" ".Xauthority" ".pip/" "privkey_newtest.pem" "fullchain.pem" "certbot.log" "Documents/" "variant_01_panel_02_interactions.jpg" ".bash_history.backup.20150623" ".bash_history" ".wget-hsts" "keystore/" ".ViberPC/" ".gnome2_private/" ".gconf/" ".web3/" ".ghc/" ".dbshell" "edit.gif" "Public/" "variant_01_panel_02_interactions_legend.jpg" "gifexport.gif" ".pam_environment" ".dmrc" ".xsession-errors" ".appcfg_nag" ".bashrc" "variant_01_panel_03_grid_basic.jpg" ".bash_logout" ".pki/" ".dvdcss/" "./" ".mongorc.js" "variant_1_concept_1_dark_01_closed.jpg" ".mozilla/" ".gvfs/" "tmp/" ".profile" ".floorc" ".gnome2/" ".cshrc" "cert.pem" ".profile.backup.20150623" ".recently-used" ".zoom/" "Music/" "eth_keystore.tgz" ".dmrc.backup.20150623" ".gnupg/" ".nano/" "netstats/" ".ICEauthority" ".docker/" ".mysql_history" "../" "workspace/" ".xsession-errors.old" "pdf.gif" ".bash_aliases" "examples.desktop" ".npm/" "Templates/" ".git-credentials" ".bashrc.backup.20150623" ".bash_logout.backup.20150623" ".gstreamer-0.10/" "variant_01_panel_05_concept_gray.jpg" ".emacs.d/" "variant_01_panel_01_legend.jpg" ".gimp-2.8/" "uxpin_the guide to agile ux design sprints.pdf" "uxpin_ux_design_in_action.pdf" ".pm2/" ".config/" "privkey_conv.pem" ".ethash/" "privkey_fixed.pem" ".local/" ".thunderbird/" "OBS/" ".hplip/" ".apt-backup/" "Downloads/" ".ICEauthority.backup.20150623" "uxpin_agile ux in the enterprise_ a step-by-step survival guide.pdf" ".watershed/" "variant_1_concept_1_dark_01_expanded.jpg" ".gnome/" ".appcfg_oauth2_tokens" ".xinputrc" ".git-credential-cache/" ".cache/" "Pictures/" "Videos/" "variant_01_panel_03_grid_basic_legend.jpg")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/app/api/" (23280 23270 312991 798000) "urls.py" "__init__.py" "tests_uploads/" "admin.py" "management/" "models.py" "__pycache__/" "./" "fixtures/" "apps.py" "views.py" "tasks.py" "templatetags/" "serializers.py" "../" "migrations/" "mock_data.py" "tests/")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbapi/" (22173 44558 875160 306000) "controllers/" "logs/" ".git/" "composer.json" ".gitignore" "templates/" "./" "../" "public/" "docs/" "README.md" "config.template.php" "utils/")
+
+ ("/home/scroll_lock/workspace/dotfiles/" (23268 7257 595447 798000) "gitconfig" "bash_aliases" ".git/" "makesymlinks.sh" "emacs.d/" "./" "cshrc" "floorc.json" "../" "README.md" "bashrc")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/Docker/entrypoints/" (22536 57147 701862 607000) "server.sh" "./" "../" "db.sh" "haproxy.sh" "worker.sh")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/Docker/dockerfiles/" (23268 32893 133959 633000) "Dockerfile.api_django" "Dockerfile.api_haproxy" "./" "../" "Dockerfile.api_database" "Dockerfile.api_celery")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/.git/" (23268 56759 915854 848000) "HEAD" "info/" "hooks/" "objects/" "config" "./" "../" "branches/" "refs/" "description")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/app/" (23268 55990 505774 172000) "./" "api/" ".credentials" "transcoder/" "../" "db.sqlite3" "supervisord.pid" "manage.py")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/" (23268 54857 876246 808000) "mysql.etc/" "./" "nginx.etc/" "haproxy.etc/" "../" "supervisord.etc")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/" (23268 32770 238642 650000) "docker-compose.yml" "Docker/" ".git/" ".gitignore" "mysql/" "app/" "./" "../" "rgbcli" "docs/" "README.md")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/app/rgbnotes/" (23157 64102 682575 122000) "urls.py" "__init__.py" "wsgi.py" "views.pyc" "__pycache__/" "./" "celery.py" "views.py" "settings.pyc" "../" "__init__.pyc" "wsgi.pyc" "settings.py" "urls.pyc")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/app/" (22500 54374 999476 386000) "rgbnotes/" "templates/" "junit/" "./" "api/" ".credentials" "../" "supervisord.pid" "manage.py" "utils/")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/haproxy.etc/" (23268 25866 472731 610000) "haproxy.cfg" "./" "../")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/mysql.etc/" (22496 59098 76240 0) "./" "../" "my.cnf")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/nginx.etc/conf.d/" (22535 35142 191343 0) "api.conf" "./" "../" "developers.conf")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_ffmpeg/Docker/configs/nginx.etc/" (22501 36082 891865 0) "nginx.conf" "scgi_params" "fastcgi.conf" "mime.types" "fastcgi_params" "conf.d/" "./" "uwsgi_params" "../" "koi-win" "koi-utf" "win-utf")
+
+ ("/home/scroll_lock/workspace/rgbnotes/rgbnotes_api_django/Docker/" (23158 48837 830602 184000) "dockerfiles/" "./" "requirements.txt" "../" "entrypoints/" "configs/" "bashrc")
+
+ ("c:/Users/Marin/.emacs.d/" (22853 2197 0 0) "zencoding-trie.nw" "snippets/" "server/" "progmodes/" "lisp/" "init.el" "ido.last" "floobits/" "emacs.d" "elpa/" "cygwin-mount.el" "completions" "color-theme-6.6.0/" "auto-save-list/" ".gitignore" "../" "./")
+
+ ("d:/workspace/" (22853 2244 0 0) "test.py" "hackandpaint/" "emacs-w64-25.2-O2-with-modules/" "dotfiles/" ".#test.py" "#test.py#" "../" "./")
+
+ ("c:/Users/Marin/" (22852 65270 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TM.blf" "NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.blf" "NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.2.regtrans-ms" "NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.1.regtrans-ms" "NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "dotfiles_old/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".ssh/" ".oracle_jre_usage/" ".gitconfig" ".floorc.json" ".floorc" ".emacs.d/" ".cshrc" ".bash_profile" ".bash_history" ".bash_aliases" ".bashrc" "../" "./")
+
+ ("d:/workspace/dotfiles/emacs.d/" (22852 60027 0 0) "zencoding-trie.nw" "progmodes/" "lisp/" "init.el" "floobits/" "emacs.d" "elpa/" "completions" "color-theme-6.6.0/" ".gitignore" "../" "./")
+
+ ("d:/workspace/dotfiles/" (22852 58167 0 0) "README.md" "makesymlinks.sh" "gitconfig" "floorc.json" "emacs.d/" "cshrc" "bash_aliases" "bashrc" ".git/" "../" "./")
+
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/libexec/emacs/25.2/x86_64-w64-mingw32/" (22852 1151 0 0) "update-game-score.exe.manifest" "update-game-score.exe" "rcs2log" "profile.exe" "movemail.exe" "hexl.exe" "ddeclient.exe" "cmdproxy.exe" "../" "./")
+
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/libexec/emacs/25.2/" (22852 1151 0 0) "x86_64-w64-mingw32/" "../" "./")
+
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/libexec/emacs/" (22852 1151 0 0) "25.2/" "../" "./")
+
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/libexec/" (22852 1151 0 0) "emacs/" "../" "./")
+
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/" (22852 1151 0 0) "emacs/" "../" "./")
+
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/" (22852 1193 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("d:/workspace/emacs-w64-25.2-O2-with-modules/emacs/bin/" (22852 1151 0 0) "zlib1.dll" "runemacs.exe" "libXpm-noX4.dll" "libxml2-2.dll" "libwinpthread-1.dll" "libunistring-2.dll" "libtiffxx-5.dll" "libtiff-5.dll" "libtasn1-6.dll" "libstdc++-6.dll" "librsvg-2-2.dll" "libpng16-16.dll" "libpixman-1-0.dll" "libpcre-1.dll" "libpangowin32-1.0-0.dll" "libpangoft2-1.0-0.dll" "libpangocairo-1.0-0.dll" "libpango-1.0-0.dll" "libp11-kit-0.dll" "libnettle-6.dll" "liblzma-5.dll" "libjpeg-8.dll" "libjbig-0.dll" "libintl-8.dll" "libidn-11.dll" "libiconv-2.dll" "libhogweed-4.dll" "libharfbuzz-icu-0.dll" "libharfbuzz-gobject-0.dll" "libharfbuzz-0.dll" "libgraphite2.dll" "libgomp-1.dll" "libgobject-2.0-0.dll" "libgnutlsxx-28.dll" "libgnutls-30.dll" "libgmp-10.dll" "libgmodule-2.0-0.dll" "libglib-2.0-0.dll" "libgio-2.0-0.dll" "libgif-7.dll" "libgdk_pixbuf-2.0-0.dll" "libgcc_s_seh-1.dll" "libfreetype-6.dll" "libfontconfig-1.dll" "libffi-6.dll" "libexpat-1.dll" "libcroco-0.6-3.dll" "libcairo-script-interpreter-2.dll" "libcairo-gobject-2.dll" "libcairo-2.dll" "libbz2-1.dll" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-25.2.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

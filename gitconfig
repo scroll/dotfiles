@@ -1,0 +1,13 @@
+[user]
+	name = Marin Petrov
+	email = marin.petrov@hackandpaint.com
+[color]
+	status = auto
+	branch = auto
+[credential]
+	helper = cache
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+	required = true

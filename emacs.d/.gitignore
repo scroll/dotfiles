@@ -1,0 +1,4 @@
+*.elc
+*/*.elc
+auto-save-list
+server
