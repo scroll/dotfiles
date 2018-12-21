@@ -33,7 +33,7 @@
 (global-set-key (kbd "C-.") 'my-increase-left-margin)
 (global-set-key (kbd "C-,") 'my-decrease-left-margin)
 (global-set-key [C-tab] 'bs-cycle-next)
-(global-set-key [C-S-tab] 'bs-cycle-previous)
+(global-set-key [C-iso-lefttab] 'bs-cycle-previous)
 
 (defun toggle-fullscreen ()
   (interactive)

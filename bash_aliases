@@ -26,13 +26,8 @@ alias psmem='ps auxf | sort -nr -k 4 | head -10'
 ## get top process eating cpu
 alias pscpu='ps auxf | sort -nr -k 3 | head -10'
 
-# Build and Release a python module
+# Build and Release a python module on Windows
 alias build_release='python setup.py sdist bdist_wheel && /c/Users/Marin/AppData/Roaming/Python/Scripts/twine.exe upload dist/*'
-
-## python and pip defaults to python3 and pip3
-alias python=python3
-alias pip=pip3
-
 
 # Google App Engine
 alias gae='python ~/workspace/google_appengine/dev_appserver.py --clear_datastore=yes'
@@ -86,3 +81,5 @@ dalias() { alias | grep 'docker' | sed "s/^\([^=]*\)=\(.*\)/\1 => \2/"| sed "s/[
 
 # Attach to container
 dattach() { docker exec -i -t $1 bash; }
+
+

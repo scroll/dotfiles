@@ -112,9 +112,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-#kubectx and kubens
+# k8s stuff
 export PATH=~/.kubectx:$PATH
 export KUBCONFIG=~/.kube/config
-
-
-#export PS1="[\u@\h \W]\$(git_branch)\$\n$ "
+source <(kubectl completion bash)
