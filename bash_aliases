@@ -82,4 +82,19 @@ dalias() { alias | grep 'docker' | sed "s/^\([^=]*\)=\(.*\)/\1 => \2/"| sed "s/[
 # Attach to container
 dattach() { docker exec -i -t $1 bash; }
 
+# Telepresence
+telebackend() { docker build -f Dockerfile . -t nimble/backend-local && telepresence --swap-deployment backend --docker-run --rm -it -v $(pwd):/app nimble/backend-local python manage.py runserver 0.0.0:8080 --settings=settings.dev; }
 
+# Common Directories
+alias www='cd /var/www/'
+alias a2='cd /etc/apache2/'
+
+# Apache
+alias logs='sudo multitail -cS apache /var/log/apache2/ssl_access.log -cS apache_error /var/log/apache2/error.log'
+
+# PHP
+alias phplogs='sudo multitail -cS apache --mergeall /var/www/rgbnotes/logs/*.log'
+
+# Utilities
+## View SSH connections
+alias vssh='sudo lsof -i -n | egrep \<ssh\>'
