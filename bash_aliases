@@ -27,7 +27,10 @@ alias psmem='ps auxf | sort -nr -k 4 | head -10'
 alias pscpu='ps auxf | sort -nr -k 3 | head -10'
 
 # Build and Release a python module on Windows
-alias build_release='python setup.py sdist bdist_wheel && /c/Users/Marin/AppData/Roaming/Python/Scripts/twine.exe upload dist/*'
+alias build_release_win='python setup.py sdist bdist_wheel && /c/Users/Marin/AppData/Roaming/Python/Scripts/twine.exe upload dist/*'
+
+# Build and Release a python module on Linux
+alias build_release='python setup.py sdist bdist_wheel && twine upload dist/*'
 
 # Google App Engine
 alias gae='python ~/workspace/google_appengine/dev_appserver.py --clear_datastore=yes'
@@ -83,7 +86,7 @@ dalias() { alias | grep 'docker' | sed "s/^\([^=]*\)=\(.*\)/\1 => \2/"| sed "s/[
 dattach() { docker exec -i -t $1 bash; }
 
 # Telepresence
-telebackend() { docker build -f Dockerfile . -t nimble/backend-local && telepresence --swap-deployment backend --docker-run --rm -it -v $(pwd):/app nimble/backend-local python manage.py runserver 0.0.0:8080 --settings=settings.dev; }
+telebackend() { docker build -f LocalDockerfile . -t nimble/backend-local && telepresence --swap-deployment backend --docker-run --rm -it -v $(pwd):/app nimble/backend-local python manage.py runserver 0.0.0:8080 --settings=settings.dev; }
 
 # Common Directories
 alias www='cd /var/www/'

@@ -144,8 +144,8 @@ If the region is not active, activate the current line."
 (require 'zenburn)
 (color-theme-zenburn)
 
-(require 'htmlize)
-(require 'zencoding-mode)
+;; (require 'htmlize)
+;; (require 'zencoding-mode)
 
 (autoload 'cg-mode  "cg-mode"  "Cg editing mode." t)
 (autoload 'mel-mode "mel-mode" "Mel editting mode." t)
@@ -155,14 +155,16 @@ If the region is not active, activate the current line."
 (autoload 'rib-mode "rib-mode" "RenderMan Interface Bytestream editing mode" t)
 (autoload 'less-css-mode "less-css-mode" "Less CSS editing mode." t)
 
-(require 'multi-web-mode)
-   (setq mweb-default-major-mode 'html-mode)
-   (setq mweb-tags '((php-mode "<\\?php\\|<\\? \\|<\\?=" "\\?>")
-                     (js-mode "<script[^>]*>" "</script>")
-                     (js-mode "<script +\\(type=\"text/javascript\"\\|language=\"javascript\"\\)[^>]*>" "</script>")
-                     (css-mode "<style +type=\"text/css\"[^>]*>" "</style>")))
-   (setq mweb-filename-extensions '("php" "htm" "html" "ctp" "phtml" "php4" "php5"))
-   (multi-web-global-mode 1)
+
+
+;; (require 'multi-web-mode)
+;;    (setq mweb-default-major-mode 'html-mode)
+;;    (setq mweb-tags '((php-mode "<\\?php\\|<\\? \\|<\\?=" "\\?>")
+;;                      (js-mode "<script[^>]*>" "</script>")
+;;                      (js-mode "<script +\\(type=\"text/javascript\"\\|language=\"javascript\"\\)[^>]*>" "</script>")
+;;                      (css-mode "<style +type=\"text/css\"[^>]*>" "</style>")))
+;;    (setq mweb-filename-extensions '("php" "htm" "html" "ctp" "phtml" "php4" "php5"))
+;;    (multi-web-global-mode 1)
 
 (setq lua-default-application "lua5.1")
 
@@ -297,6 +299,17 @@ If the region is not active, activate the current line."
    "Major mode for editing GitHub Flavored Markdown files" t)
 (add-to-list 'auto-mode-alist '("README\\.md\\'" . gfm-mode))
 
+;; Load web-mode
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -307,7 +320,7 @@ If the region is not active, activate the current line."
    (quote
     (elpy-module-company elpy-module-eldoc elpy-module-pyvenv elpy-module-yasnippet elpy-module-sane-defaults)))
  '(elpy-rpc-timeout 2)
- '(package-selected-packages (quote (flycheck markdown-mode jedi iedit elpy)))
+ '(package-selected-packages (quote (web-mode flycheck markdown-mode jedi iedit elpy)))
  '(python-shell-completion-native-enable nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
