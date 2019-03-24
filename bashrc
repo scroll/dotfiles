@@ -116,3 +116,4 @@ fi
 export PATH=~/.kubectx:$PATH
 export KUBCONFIG=~/.kube/config
 source <(kubectl completion bash)
+export KUBE_EDITOR="emacs"
