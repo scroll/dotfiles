@@ -310,6 +310,28 @@ If the region is not active, activate the current line."
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 
+;; Load vue mode
+(require 'use-package)
+(require 'lsp-mode)
+
+;; for completions
+(use-package company-lsp
+  :after lsp-mode
+  :config (push 'company-lsp company-backends))
+
+(use-package lsp-mode
+  :custom
+  (lsp-vetur-format-default-formatter-css "none")
+  (lsp-vetur-format-default-formatter-html "none")
+  (lsp-vetur-format-default-formatter-js "none")
+  (lsp-vetur-validation-template nil))
+
+(use-package vue-mode
+  :mode "\\.vue\\'"
+  :hook (vue-mode . prettier-js-mode)
+  :config
+  (add-hook 'vue-mode-hook #'lsp)
+  (setq prettier-js-args '("--parser vue")))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -320,7 +342,9 @@ If the region is not active, activate the current line."
    (quote
     (elpy-module-company elpy-module-eldoc elpy-module-pyvenv elpy-module-yasnippet elpy-module-sane-defaults)))
  '(elpy-rpc-timeout 2)
- '(package-selected-packages (quote (web-mode flycheck markdown-mode jedi iedit elpy)))
+ '(package-selected-packages
+   (quote
+    (company-lsp vue-mode lsp-mode pylint web-mode flycheck markdown-mode jedi iedit elpy)))
  '(python-shell-completion-native-enable nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
