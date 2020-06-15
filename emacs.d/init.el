@@ -309,6 +309,7 @@ If the region is not active, activate the current line."
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
 
 ;; Load vue mode
 (require 'use-package)
@@ -344,7 +345,7 @@ If the region is not active, activate the current line."
  '(elpy-rpc-timeout 2)
  '(package-selected-packages
    (quote
-    (company-lsp vue-mode lsp-mode pylint web-mode flycheck markdown-mode jedi iedit elpy)))
+    (js2-mode company-lsp vue-mode lsp-mode pylint web-mode flycheck markdown-mode jedi iedit elpy)))
  '(python-shell-completion-native-enable nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
