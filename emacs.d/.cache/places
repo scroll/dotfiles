@@ -1,0 +1,124 @@
+;;; -*- coding: utf-8 -*-
+(("/home/scroll_lock/workspace/ss/web/notifications/notifications.py" . 836)
+ ("/home/scroll_lock/workspace/ss/web/notifications/tasks.py" . 6857)
+ ("/home/scroll_lock/workspace/ss/web/notifications/channels.py" . 899)
+ ("/home/scroll_lock/workspace/ss/web/notifications/constants.py" . 172)
+ ("/etc/"
+  (dired-filename . "/etc/hosts"))
+ ("/home/scroll_lock/workspace/ss/web/critiq/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/critiq/settings_local_docker.py"))
+ ("/home/scroll_lock/workspace/ss/web/notifications/inner.py" . 933)
+ ("/home/scroll_lock/workspace/dotfiles/.bash_aliases" . 2572)
+ ("/home/scroll_lock/.emacs.d/.cache/recentf" . 6445)
+ ("/home/scroll_lock/.emacs.d/.cache/layouts/persp-auto-save" . 2126)
+ ("/home/scroll_lock/workspace/ss/web/critiq/settings_local.py" . 722)
+ ("/home/scroll_lock/workspace/ss/web/critiq/settings_base.py" . 18406)
+ ("/home/scroll_lock/workspace/ss/web/critiq/settings.py" . 637)
+ ("/home/scroll_lock/workspace/ss/web/critiq/settings_local_docker.py" . 108)
+ ("/etc/hosts" . 41)
+ ("/home/scroll_lock/workspace/ss/web/critiq/settings_local_celery.py" . 464)
+ ("/home/scroll_lock/workspace/ss/web/critiq/utils/uploads.py" . 64371)
+ ("/home/scroll_lock/workspace/ss/web/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/main"))
+ ("/home/scroll_lock/workspace/ss/web/main/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/main/v2"))
+ ("/home/scroll_lock/workspace/ss/web/main/v2/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/main/v2/slack_api.py"))
+ ("/home/scroll_lock/workspace/ss/web/notifications/base.py" . 2640)
+ ("/home/scroll_lock/workspace/ss/web/main/v2/slack_api.py" . 2626)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/projects/Project.vue" . 2844)
+ ("/home/scroll_lock/workspace/ss/web/notifications/models.py" . 1991)
+ ("/home/scroll_lock/workspace/ss/web/main/v2/notification_api.py" . 1068)
+ ("/home/scroll_lock/workspace/ss/web/critiq/urls.py" . 7754)
+ ("/home/scroll_lock/workspace/ss/web/main/v2/account_api.py" . 4546)
+ ("/home/scroll_lock/workspace/ss/web/critiq/apis/shotgun_api.py" . 1661)
+ ("/home/scroll_lock/workspace/ss/web/main/models.py" . 1286)
+ ("/home/scroll_lock/workspace/ss/web/notifications/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/notifications/constants.py"))
+ ("/home/scroll_lock/workspace/rgbnotes/"
+  (dired-filename . "/home/scroll_lock/workspace/rgbnotes/rgb-web-rgbnotes"))
+ ("/home/scroll_lock/workspace/ss/web/controllers/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/controllers/accounts.py"))
+ ("/home/scroll_lock/workspace/ss/web/critiq/apis/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/critiq/apis/shotgun_api.py"))
+ ("/home/scroll_lock/workspace/rgbnotes/rgb-web-rgbnotes/"
+  (dired-filename . "/home/scroll_lock/workspace/rgbnotes/rgb-web-rgbnotes/app"))
+ ("/home/scroll_lock/workspace/ss/web/main/v2/project_api.py" . 1895)
+ ("/home/scroll_lock/workspace/ss/web/controllers/users.py" . 37176)
+ ("/home/scroll_lock/workspace/ss/web/controllers/shotgun.py" . 4640)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/reviews/ReviewUploader.vue" . 12602)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/account/AccountIntegrationsShotgun.vue" . 6689)
+ ("/home/scroll_lock/workspace/ss/web/critiq/utils/stripeApi.py" . 9116)
+ ("/home/scroll_lock/workspace/rgbnotes/rgb-web-rgbnotes/app/functions/get_user_session.php" . 3287)
+ ("/home/scroll_lock/workspace/rgbnotes/rgb-web-rgbnotes/app/functions/get_slack_token.php" . 1592)
+ ("/home/scroll_lock/workspace/rgbnotes/rgb-web-rgbnotes/app/projects/project_manager.js" . 23509)
+ ("/home/scroll_lock/workspace/rgbnotes/rgb-web-rgbnotes/app/functions/registerProject.php" . 9333)
+ ("/home/scroll_lock/workspace/ss/web/notifications/views.py" . 1153)
+ ("/home/scroll_lock/workspace/ss/web/.dockerignore" . 112)
+ ("/home/scroll_lock/workspace/ss/web/templates/projects/index.html" . 945)
+ ("/home/scroll_lock/workspace/ss/web/controllers/accounts.py" . 5301)
+ ("/home/scroll_lock/workspace/ss/web/requirements.txt" . 1507)
+ ("/home/scroll_lock/workspace/ss/web/main/api.py" . 1987)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/app.js" . 247)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/account/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/account/AccountIntegrationsShotgun.vue"))
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/projects/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/projects/.."))
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/.."))
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/media/src/js/pro/.."))
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/media/src/js/.."))
+ ("/home/scroll_lock/workspace/ss/web/media/src/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/media/src/.."))
+ ("/home/scroll_lock/workspace/ss/web/media/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/media/.."))
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/App.vue" . 795)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/projects/ProjectDialog.vue" . 7223)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/utils/generalUtils.js" . 231)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/utils/exporter.js" . 52)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/modules/utils/sessionExpiration.js" . 382)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/utils/html_common.js" . 2801)
+ ("/home/scroll_lock/workspace/ss/web/main/signals.py" . 2104)
+ ("/home/scroll_lock/workspace/ss/web/config/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/config/.."))
+ ("/home/scroll_lock/workspace/ss/web/media/js/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/media/js/.."))
+ ("/home/scroll_lock/workspace/dotfiles/"
+  (dired-filename . "/home/scroll_lock/workspace/dotfiles/emacs.d"))
+ ("/home/scroll_lock/workspace/"
+  (dired-filename . "/home/scroll_lock/workspace/arc"))
+ ("/home/scroll_lock/workspace/dotfiles/emacs.d/"
+  (dired-filename . "/home/scroll_lock/workspace/dotfiles/emacs.d/init.el"))
+ ("/home/scroll_lock/workspace/ss/web/main/tasks/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/main/tasks/inner.py"))
+ ("/home/scroll_lock/workspace/ss/web/main/tasks/inner.py" . 1075)
+ ("/home/scroll_lock/workspace/ss/web/cypress/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/cypress/.."))
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/account/Account.vue" . 58)
+ ("/home/scroll_lock/workspace/ss/web/main/forms.py" . 345)
+ ("/home/scroll_lock/workspace/ss/web/cypress/examples/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/cypress/examples/actions.spec.js"))
+ ("/home/scroll_lock/workspace/ss/web/cypress/examples/actions.spec.js" . 3195)
+ ("/home/scroll_lock/workspace/ss/web/cypress/examples/cookies.spec.js" . 88)
+ ("/home/scroll_lock/workspace/ss/web/cypress/examples/files.spec.js" . 2517)
+ ("/home/scroll_lock/workspace/ss/web/docker-compose.dev.yml" . 92)
+ ("/home/scroll_lock/workspace/ss/web/critiq/celery.py" . 312)
+ ("/home/scroll_lock/workspace/ss/web/main/apps.py" . 35)
+ ("/home/scroll_lock/workspace/ss/web/main/common.py" . 540)
+ ("/home/scroll_lock/workspace/ss/web/main/v2/review_api.py" . 680)
+ ("/home/scroll_lock/workspace/ss/web/docker/aws_credentials/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/docker/aws_credentials/.."))
+ ("/home/scroll_lock/workspace/ss/web/docker/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/docker/dockerfiles"))
+ ("/home/scroll_lock/workspace/ss/web/docker/dockerfiles/"
+  (dired-filename . "/home/scroll_lock/workspace/ss/web/docker/dockerfiles/celery.dev.Dockerfile"))
+ ("/home/scroll_lock/workspace/ss/web/docker/dockerfiles/celery.dev.Dockerfile" . 28)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/shared/Shotgun.vue" . 2874)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/projects/ProjectDropDown.vue" . 3387)
+ ("/home/scroll_lock/workspace/ss/web/media/src/js/pro/components/projects/ProjectHeader.vue" . 7624)
+ ("/home/scroll_lock/.emacs.d/"
+  (dired-filename . "/home/scroll_lock/.emacs.d/.lock"))
+ ("/home/scroll_lock/workspace/ss/web/cypress.json" . 32)
+ ("/home/scroll_lock/workspace/font.sh" . 298))
