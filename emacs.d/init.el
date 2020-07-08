@@ -243,7 +243,18 @@ If the region is not active, activate the current line."
  (lambda ()
    (require 'etom)
    (setq etom-default-host "localhost")
-   (setq etom-default-port 2323)
+   (setq etom-default-port 2222)
+   (local-set-key (kbd "C-c C-r") 'etom-send-region)
+   (local-set-key (kbd "C-c C-c") 'etom-send-buffer)
+   (local-set-key (kbd "C-c C-l") 'etom-send-buffer)
+   (local-set-key (kbd "C-c C-z") 'etom-show-buffer)))
+
+(add-hook
+ 'python-mode-hook
+ (lambda ()
+   (require 'etom)
+   (setq etom-default-host "localhost")
+   (setq etom-default-port 2222)
    (local-set-key (kbd "C-c C-r") 'etom-send-region)
    (local-set-key (kbd "C-c C-c") 'etom-send-buffer)
    (local-set-key (kbd "C-c C-l") 'etom-send-buffer)
@@ -298,18 +309,6 @@ If the region is not active, activate the current line."
 (autoload 'gfm-mode "gfm-mode"
    "Major mode for editing GitHub Flavored Markdown files" t)
 (add-to-list 'auto-mode-alist '("README\\.md\\'" . gfm-mode))
-
-;; Load web-mode
-(require 'web-mode)
-(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
-
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
