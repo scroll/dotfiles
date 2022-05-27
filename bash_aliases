@@ -1,6 +1,15 @@
 ## Colorize the ls output ##
 alias ls='ls --color=auto'
- 
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# install and search on Linux
+alias install='sudo apt-get install'
+alias sea='sudo apt-cache search'
+
 ## Use a long listing format ##
 alias ll='ls -la --color=auto'
  

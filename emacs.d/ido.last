@@ -1,0 +1,42 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/" . "marinpetrov/")
+ ("/" . "Users/")
+ ("/Users/marinpetrov/workspace/personal/dotfiles/" . "emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/marinpetrov/"
+ "/Users/marinpetrov/workspace/personal/dotfiles/"
+ "/Users/marinpetrov/workspace/personal/dotfiles/emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".zshrc"
+ "zshrc"
+ "init.el"
+ "bashrc"
+ "bash_aliases"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/" (25209 34824 0 0) "Shared/" ".localized" "marinpetrov/" "../" "./")
+
+ ("/Users/marinpetrov/" (25232 39320 380661 793000) ".zsh_sessions/" ".viminfo" ".bash_history" ".gitconfig" "Downloads/" ".oh-my-zsh/" ".spacemacs" ".spacemacs.env" "Documents/" ".Trash/" "Applications/" "Movies/" ".ssh/" ".cshrc" ".bash_aliases" "Public/" ".bash_sessions/" "Adlm/" ".cups/" ".emacs.d/" ".floorc.json" "Calibre Library/" "dotfiles_old/" "Library/" "Desktop/" ".zsh_history" "xgen/" ".zprofile" "workspace/" "Pictures/" "Creative Cloud Files/" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".CFUserTextEncoding" ".zcompdump-Marin’s MacBook Pro-5.8.1" "pymel.log" ".DS_Store" "Music/" ".config/" "../" "./")
+
+ ("/Users/marinpetrov/workspace/" (25231 42972 681871 287000) "schoolism/" "animschool/" "camplight/" ".DS_Store" "personal/" "../" "./")
+
+ ("/Users/marinpetrov/workspace/personal/" (25231 42988 638402 376000) "dotfiles/" "../" "./")
+
+ ("/Users/marinpetrov/workspace/personal/dotfiles/" (25232 38584 139051 323000) ".git/" "emacs.d/" "gitconfig" "zshrc" "README.md" "bashrc" "bash_aliases" "cshrc" "makesymlinks.sh" "floorc.json" "../" "./")
+
+ ("/Users/marinpetrov/workspace/personal/dotfiles/emacs.d/" (25232 34755 635514 879000) "progmodes/" "session.1035c814ad4af4d254159178413896986900000026850067" "session.1092ea0325c603d173158921540665689000000029740067" "session.10db44d6988c09dedc158937286866266100000026440067" "elpa/" "floobits/" "session.10170a31d9db0726f6158685166373655700000041180067" "session.1078e775d5e578e6e7158394194593084100000021580067" "session.10be06964e98c8affe159004784831262100000038550067" "emacs.d" ".gitignore" "zencoding-trie.nw" "init.el" "auto-save-list/" "session.107af55898bda32a60158953221585629500000026410067" "session.102636911fd3109521159134432446171200000025260067" "session.10fbff9f9d3d784f04159015758986500600000026300067" "session.10217e8f02d93d628a155439975289751800000234860067" "completions" "session.10552b7deed1df5905159172161112665200000023040068" "cygwin-mount.el" "session.106c75bd93808c0d59159119428220949600000028410067" "session.10cb493fc16929673158894204780964800000025740067" "session.10bfc1f9f9b54f33a158402682541067200000021490067" "lisp/" "session.10ee67b71eafe3c022158772039361458500000026940067" "session.10390a9f96ac3ebe46158738599786782400000037440067" "ac-comphist.dat" "color-theme-6.6.0/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

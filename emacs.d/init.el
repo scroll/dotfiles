@@ -21,7 +21,9 @@
                 "~/.emacs.d/progmodes"
                 "~/.emacs.d/color-theme-6.6.0")))
 
-
+;; remove big yellow exclamation mark
+(setq visible-bell nil)
+(setq ring-bell-function 'ignore)
 
 ;; (require 'yasnippet)
 ;; (yas/global-mode 1)
