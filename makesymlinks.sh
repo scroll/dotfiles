@@ -4,7 +4,7 @@
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
 ############################
 dir=`pwd`
-files="emacs.d cshrc bashrc bash_aliases gitconfig oh-my-zsh zshrc"
+files="emacs.d cshrc bashrc bash_aliases gitconfig zshrc"
 
 if [ ! -d "~/dotfiles_old" ]; then
 	rm -rf ~/dotfiles_old
