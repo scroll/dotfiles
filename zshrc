@@ -15,7 +15,12 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# Set Oh My Zsh theme conditionally
+if [[ "$TERM_PROGRAM" == "vscode" ]]; then
+  ZSH_THEME=""  # Disable Powerlevel10k for Cursor
+else
+  ZSH_THEME="powerlevel10k/powerlevel10k"
+fi
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -79,6 +84,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -110,6 +116,20 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Use a minimal prompt in Cursor to avoid command detection issues
+if [[ "$TERM_PROGRAM" == "vscode" ]]; then
+  PROMPT='%n@%m:%~%# '
+  RPROMPT=''
+else
+  [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+fi
+
+
+if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -119,6 +139,5 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-export PATH=~/.local/bin:$PATHsource /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.1.1
+# OpenAI Whisper
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
