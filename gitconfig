@@ -13,3 +13,5 @@
 	required = true
 [core]
 	editor = /usr/bin/vim
+[i18n]
+	logOutputEncoding = utf8
